@@ -39,3 +39,5 @@ npm install
 ```
 npm start
 ```
+
+Link to video demo https://www.dropbox.com/s/72uhzp25qxgr0wo/video-markdown-editor-project.wmv?dl=1
