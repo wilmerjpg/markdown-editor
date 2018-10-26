@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+}
+
+.container-fluid{
+  margin: 0 auto;
+  height: 100vh;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.overflow-a{
+  overflow: auto;
+}
+
+.border-gray{
+  border: solid 1px #e9e9e9;
+}
+
+.CodeMirror {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  font-size: 14px;
+}
