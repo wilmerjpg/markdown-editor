@@ -17,29 +17,6 @@ class App extends Component {
     super(props);
     this.state = {
       files: [],
-      files2: [
-        {
-          id: 1,
-          name: "Document 1",
-          lastModified: "99 days Ago",
-          dateLastModified: new Date(),
-          content: "# This is a header Documento 1"
-        },
-        {
-          id: 2,
-          name: "Document 2",
-          lastModified: "4 days Ago",
-          dateLastModified: new Date(),
-          content: "# This is a header Documento 2"
-        },
-        {
-          id: 3,
-          name: "Document 3",
-          lastModified: "5 days Ago",
-          dateLastModified: new Date(),
-          content: "# This is a header Documento 3"
-        }
-      ],
       fileSelected: 0
     };
     this.onClickFile = this.onClickFile.bind(this);
